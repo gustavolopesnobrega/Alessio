@@ -4,6 +4,8 @@ import NavBar from '@/components/navbar'
 import { useEffect } from "react";
 import Image from 'next/image';
 import servicos from '../public/servicos.png'
+import { motion } from 'framer-motion';
+
 
 
 
@@ -18,14 +20,23 @@ export default function Home() {
       <section className=" min-h-screen relative "  >
         <NavBar></NavBar>
         <div className='flex flex-col p-10 lg:flex-row lg:justify-start lg:px-60 lg:py-10 '>
-          <div className='animate-slide-up flex justify-center text-2xl pt-28 lg:flex lg:min-w-max lg:mt-5 lg:text-4xl '>
-            <h1 className="lg:text-4xl ">“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
-              <br /> E all'improvviso vi sorprenderete a fare l'impossibile.”
-              <p className='py-4'>              San. Francesco di Assisi
-              </p>
-            </h1>
+          <motion.h1
+            className="lg:text-4xl"
+            initial={{ y: 100 }}
+            animate={{ y: 0 }}
+            transition={{ duration: 1 }}
 
-          </div>
+          >
+            <div className='animate-slide-up flex justify-center text-2xl pt-28 lg:flex lg:min-w-max lg:mt-5 lg:text-4xl '>
+
+              <h1 className="lg:text-4xl ">“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
+                <br /> E all'improvviso vi sorprenderete a fare l'impossibile.”
+                <p className='py-4'>              San. Francesco di Assisi
+                </p>
+              </h1>
+
+            </div>
+          </motion.h1>
 
         </div>
         {/* <div className='flex justify-center py-28'>
