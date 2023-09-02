@@ -28,9 +28,9 @@ export default function Home() {
           </div>
 
         </div>
-        <div className='flex justify-center py-28'>
+        {/* <div className='flex justify-center py-28'>
           <Image src={servicos} alt='' ></Image>
-        </div>
+        </div> */}
 
       </section>
 
