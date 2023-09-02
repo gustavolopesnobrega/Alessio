@@ -8,13 +8,13 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        wiggle: {
+        'slide-up': {
           '0%': { transform: 'translateY(100%)' },
           '100%': { transform: 'translateY(0)' },
         }
       },
         animation: {
-        wiggle: 'wiggle 1s ease-out',
+          'animate-slide-up': 'slide-up 1s ease-out',
       },
       colors: {
         'dots-blue': '#6038FF',
