@@ -9,12 +9,12 @@ function Contact() {
 
     return (
         <div className='bg-slate-100 shadow-[0_0px_28px_6px_rgba(156,27,27,0.60)]' id='contact'>
-            <div className='flex justify-center gap-2 lg:justify-center'>
+            <div className='flex bg-red-800 justify-center gap-2 lg:justify-center'>
                 <div className='bg-red-800 lg:py-18 text-white py-18 px-10 flex flex-col gap-2 lg:flex lg:gap-6 lg:w-full lg:justify-center'>
-                    <div className='flex flex-col py-10 gap-4 lg:justify-center align-middle'>
+                    <div className='flex flex-col py-10 gap-4 w-full lg:justify-center align-middle'>
 
                         <h1 className='text-4xl font-bold flex justify-center '>Contatti</h1>
-                        <p className='flex justify-center'>Elit adipi massa diam in dignissim. Sagittis pulvinar ut dis venenatis nunc nunc vitae aliquam vestibulum.</p>
+                        <p className='flex justify-center'></p>
 
                     </div>
                     <div className=' flex justify-center'>
