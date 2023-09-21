@@ -6,9 +6,9 @@ import Image from 'next/image';
 import servicos from '../public/servicos.png'
 import { motion } from 'framer-motion';
 import bandeirabanbino from '../public/bandiera-bambino.jpg'
-import cittadinanza from '../public/cittadinanza Italiana.jpg'
+import cittadinanza from '../public/cittadinanza Italiana.jpeg'
 import corso from '../public/corso-formazione.jpg'
-import cultura from '../public/cultura-italiana.jpg'
+import cultura from '../public/cultura-italiana.jpeg'
 import diritti from '../public/Diritti.jpg'
 import partnership from '../public/partnership.jpg'
 import territorio from '../public/Territorio.jpg'
@@ -27,7 +27,7 @@ export default function Home() {
     <main className=" h-full bg-cyan-300 text-black overflow-x-hidden ">
       <section className=" min-h-screen relative "  >
         <NavBar></NavBar>
-        <div className='flex flex-col p-10  lg:flex-col lg:justify-start lg:px-60 lg:py-10 '>
+        <div className='flex flex-col justify-center lg:flex-col lg:justify-start lg:px-60 lg:py-10 '>
           <motion.h1
             className="lg:text-4xl"
             initial={{ y: 100, opacity: 0 }}
@@ -36,9 +36,9 @@ export default function Home() {
 
 
           >
-            <div className='animate-slide-up z-[1001] py-40 flex justify-center text-2xl pt-28wg:flex lg:min-w-max lg:mt-5 lg:text-4xl '>
+            <div className='animate-slide-up z-[1001] py-40 px-6 flex justify-center text-2xl pt-28wg:flex lg:min-w-max lg:mt-5 lg:text-4xl '>
 
-              <h1 className="lg:text-4xl ">“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
+              <h1 className="lg:text-4xl flex flex-col justify-center">“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
                 <br /> E all'improvviso vi sorprenderete a fare l'impossibile.”
                 <p className='py-4'>              San. Francesco di Assisi
                 </p>
@@ -51,23 +51,23 @@ export default function Home() {
           <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-10' id='content-section'>
             <div className=' flex justify-center align-middle py-6  '>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full" id='service'>
-                    <Image src={bandeirabanbino} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px] border-0" id='service'>
+                    <Image src={bandeirabanbino} className="w-[400px] h-[400px] " alt='badeira banbino'></Image>
                   </div>
                   <div
-                    className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
+                    className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden "
                   >
                     <div
-                      className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-2"
+                      className="text-center flex flex-col items-center justify-center text-gray-800 "
                     >
-                      <h1 className="text-xl font-semibold">INTEGRAZIONE DELLE COMUNITA' DI DISCENDENTI ITALIANI IN ITALIA</h1>
+                      <h1 className="text-base font-semibold py-4">INTEGRAZIONE DELLE COMUNITA' DI DISCENDENTI ITALIANI IN ITALIA</h1>
 
-                      <p>
+                      <p className='text-[15px] lg:text-base'>
 
                         Abbiamo creato un circuito di eccellenza che fa di Regeneration il più avanzato esempio di cooperazione tra attori privati e istituzioni per promuovere l’integrazione dei discendenti italiani nel tessuto socio economico della nostra Regione.
                         Attraverso i nostri servizi i discendenti potranno essere accompagnati in un percorso che prevede l’ottenimento della cittadinanza , la ricerca di immobili , corsi di formazione e opportunità di lavoro .
@@ -83,13 +83,13 @@ export default function Home() {
 
             <div className=' flex justify-center align-middle py-6'>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] min-w bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full">
-                    <Image src={cittadinanza} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <Image src={territorio} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
@@ -114,13 +114,13 @@ export default function Home() {
 
             <div className=' flex justify-center align-middle py-6'>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full">
-                    <Image src={corso} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <Image src={turismo} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
@@ -145,13 +145,13 @@ export default function Home() {
 
             <div className=' flex justify-center align-middle py-6'>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full">
-                    <Image src={cultura} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <Image src={cittadinanza} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
@@ -178,13 +178,13 @@ export default function Home() {
 
             <div className=' flex justify-center align-middle py-6'>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full">
-                    <Image src={diritti} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <Image src={partnership} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
@@ -208,13 +208,13 @@ export default function Home() {
 
             <div className=' flex justify-center align-middle py-6'>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full">
-                    <Image src={partnership} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden -[400px] h-[400px] ">
+                    <Image src={cultura} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
@@ -237,13 +237,13 @@ export default function Home() {
 
             <div className=' flex justify-center align-middle py-6'>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full">
-                    <Image src={territorio} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <Image src={corso} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
@@ -268,13 +268,13 @@ export default function Home() {
 
             <div className=' flex justify-center align-middle py-6'>
               <div
-                className="w-[400px] h-[440px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden border-2 w-auto h-full">
-                    <Image src={turismo} className="w-auto h-full" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <Image src={diritti} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
