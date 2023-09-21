@@ -27,7 +27,7 @@ export default function Home() {
     <main className=" h-full bg-cyan-300 text-black overflow-x-hidden ">
       <section className=" min-h-screen relative "  >
         <NavBar></NavBar>
-        <div className='flex flex-col justify-center lg:flex-col lg:justify-start lg:px-60 lg:py-10 '>
+        <div className='flex flex-col justify-center lg:flex-col lg:justify-start lg:px-60 lg:py-10 ' id='home'>
           <motion.h1
             className="lg:text-4xl"
             initial={{ y: 100, opacity: 0 }}
@@ -38,7 +38,7 @@ export default function Home() {
           >
             <div className='animate-slide-up z-[1001] py-40 px-6 flex justify-center text-2xl pt-28wg:flex lg:min-w-max lg:mt-5 lg:text-4xl '>
 
-              <h1 className="lg:text-4xl flex flex-col justify-center">“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
+              <h1 className="lg:text-4xl flex flex-col justify-center" >“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
                 <br /> E all'improvviso vi sorprenderete a fare l'impossibile.”
                 <p className='py-4'>              San. Francesco di Assisi
                 </p>

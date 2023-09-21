@@ -15,7 +15,7 @@ function NavBar() {
     setOpen(!isOpen);
   };
   return (
-    <div className=' text-black flex-col bg-cyan-300 overflow-x-hidden '>
+    <div className=' text-black flex-col bg-cyan-300 overflow-x-hidden ' id='home'>
       <nav className=" flex justify-between  gap-10 md:py-6 md:flex lg:px-10 ">
         <div className='z-[1000] py-4 px-6'>
           <Hamburger toggled={isOpen} toggle={setOpen} />

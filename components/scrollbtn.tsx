@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 function ScrollToTopButton() {
     return (
-        <Link href={'/'}
+        <Link href={'#home'}
             className={`fixed bottom-4 right-4 p-2 rounded-full bg-green-600 text-white hover:bg-green-700 transition-opacity duration-300'
                 }`}
 
