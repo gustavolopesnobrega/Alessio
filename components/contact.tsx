@@ -29,7 +29,7 @@ function Contact() {
                             </div>
                             <div className='flex gap-2'>
                                 <AiOutlineWhatsApp className='text-4xl'></AiOutlineWhatsApp>
-                                <Link href={'/'} className='flex justify-center pt-2 hover:text-slate-300 text-lg'>Whatssap</Link>
+                                <Link href={"https://api.whatsapp.com/send?phone=393792378680"} className='flex justify-center pt-2 hover:text-slate-300 text-lg'>Whatssap</Link>
                             </div>
                         </div>
                     </div>
