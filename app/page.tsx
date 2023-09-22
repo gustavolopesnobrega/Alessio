@@ -27,7 +27,7 @@ export default function Home() {
     <main className=" h-full bg-cyan-300 text-black overflow-x-hidden ">
       <section className=" min-h-screen relative "  >
         <NavBar></NavBar>
-        <div className='flex flex-col justify-center lg:flex-col lg:justify-start lg:px-60 lg:py-10 ' id='home'>
+        <div className='flex flex-col justify-center lg:flex-col lg:justify-start lg:px-60 lg:py-10 '>
           <motion.h1
             className="lg:text-4xl"
             initial={{ y: 100, opacity: 0 }}
@@ -48,7 +48,7 @@ export default function Home() {
 
           </motion.h1>
 
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-10' id='content-section'>
+          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-10 ' id='content-section'>
             <div className=' flex justify-center align-middle py-6  '>
               <div
                 className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
@@ -57,7 +57,7 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px] border-0" id='service'>
-                    <Image src={bandeirabanbino} className="w-[400px] h-[400px] " alt='badeira banbino'></Image>
+                    <Image src={bandeirabanbino} className="" alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden "
