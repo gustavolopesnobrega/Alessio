@@ -65,9 +65,9 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center text-gray-800 "
                     >
-                      <h1 className="text-base font-semibold py-4">INTEGRAZIONE DELLE COMUNITA' DI DISCENDENTI ITALIANI IN ITALIA</h1>
+                      <h1 className="text-base font-semibold py-2">INTEGRAZIONE DELLE COMUNITA' DI DISCENDENTI ITALIANI IN ITALIA</h1>
 
-                      <p className='text-[15px] lg:text-base'>
+                      <p className='text-[15px] lg:text-base '>
 
                         Abbiamo creato un circuito di eccellenza che fa di Regeneration il più avanzato esempio di cooperazione tra attori privati e istituzioni per promuovere l’integrazione dei discendenti italiani nel tessuto socio economico della nostra Regione.
                         Attraverso i nostri servizi i discendenti potranno essere accompagnati in un percorso che prevede l’ottenimento della cittadinanza , la ricerca di immobili , corsi di formazione e opportunità di lavoro .
@@ -157,9 +157,9 @@ export default function Home() {
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
                   >
                     <div
-                      className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
+                      className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 py-10"
                     >
-                      <h1 className="text-2xl font-semibold">Assistenza all’ottenimento…</h1>
+                      <h1 className="text-xl font-semibold">Assistenza all’ottenimento…</h1>
 
                       <p>
 
