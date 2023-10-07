@@ -36,9 +36,9 @@ export default function Home() {
 
 
           >
-            <div className='animate-slide-up z-[1001] py-40 px-6 flex justify-center text-2xl pt-28wg:flex lg:min-w-max lg:mt-5 lg:text-4xl '>
+            <div className='animate-slide-up z-[1001] px-10 py-36 text-2xl'>
 
-              <h1 className="lg:text-4xl flex flex-col justify-center" >“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
+              <h1 className="lg:text-4xl flex flex-col justify-center " >“Cominciate col fare ciò che è necessario, poi ciò che è possibile.
                 <br /> E all'improvviso vi sorprenderete a fare l'impossibile.”
                 <p className='py-4'>              San. Francesco di Assisi
                 </p>
@@ -48,30 +48,34 @@ export default function Home() {
 
           </motion.h1>
 
-          <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-10 ' id='content-section'>
+          <div className='flex flex-wrap gap-6 justify-center ' id='content-section'>
             <div className=' flex justify-center align-middle py-6  '>
               <div
-                className="w-[400px] h-[400px] bg-transparent cursor-pointer group perspective"
+                className="w-[400px] h-[400px] min-w bg-transparent cursor-pointer group perspective"
               >
                 <div
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
-                  <div className="absolute backface-hidden w-[400px] h-[400px] border-0" id='service'>
-                    <Image src={bandeirabanbino} className="" alt='badeira banbino'></Image>
+                  <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]' id='service'>
+                      <h1 className="text-2xl font-semibold px-4 text-white">Integrazione del discendenti italiani in Italia</h1>
+                    </div>
+
+                    <Image src={bandeirabanbino} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
+
                   <div
-                    className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden "
+                    className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
                   >
                     <div
-                      className="text-center flex flex-col items-center justify-center text-gray-800 "
+                      className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
                     >
-                      <h1 className="text-base font-semibold py-2">INTEGRAZIONE DELLE COMUNITA' DI DISCENDENTI ITALIANI IN ITALIA</h1>
 
-                      <p className='text-[15px] lg:text-base '>
 
-                        Abbiamo creato un circuito di eccellenza che fa di Regeneration il più avanzato esempio di cooperazione tra attori privati e istituzioni per promuovere l’integrazione dei discendenti italiani nel tessuto socio economico della nostra Regione.
-                        Attraverso i nostri servizi i discendenti potranno essere accompagnati in un percorso che prevede l’ottenimento della cittadinanza , la ricerca di immobili , corsi di formazione e opportunità di lavoro .
-                        Crediamo che il rientro dei discendenti nella nostra regione rappresenti la nostra più grande opportunità e saremo pronti ad accogliervi rispondendo a tutte le vostre esigenze
+                      <p>
+
+                        Regeneration è un modello d'eccellenza che unisce il settore privato e le istituzioni per favorire l'integrazione dei discendenti italiani nella nostra regione. Offriamo servizi per ottenere la cittadinanza, cercare immobili, formazione e opportunità di lavoro. Siamo pronti ad accogliervi e rispondere alle vostre esigenze.
+
                       </p>
 
                     </div>
@@ -89,7 +93,10 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
-                    <Image src={territorio} className="w-auto h-full" alt='badeira banbino'></Image>
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
+                      <h1 className="text-2xl font-semibold px-4 text-white ">Promozione del territorio Italiano nel mondo</h1>
+                    </div>
+                    <Image src={territorio} className="w-auto h-full " alt='badeira banbino'></Image>
                   </div>
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
@@ -97,12 +104,11 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
                     >
-                      <h1 className="text-2xl font-semibold">Promozione del territorio Italiano nel mondo</h1>
+
 
                       <p>
 
-                        Regeneration promuove il territorio Molisano nel mondo creando una finestra sul nostro patrimonio storico artistico e naturale per tutte le comunità degli italiani nel mondo, il nostro territorio  nel cuore dell’Italia rappresenta ancora oggi un luogo da scoprire , che mantiene integra quell’autenticità che raappresenta oggi la piu originale tradizione del Made in Italy.
-
+                        Regeneration promuove il territorio molisano in tutto il mondo, aprendo una finestra sul nostro ricco patrimonio storico, artistico e naturale per tutte le comunità italiane sparse nel globo. La nostra regione, situata nel cuore dell'Italia, rimane un luogo inesplorato, mantenendo intatta l'autenticità che rappresenta la tradizione più autentica del "Made in Italy
                       </p>
 
                     </div>
@@ -120,6 +126,10 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
+                      <h1 className="text-2xl font-semibold  text-white ">Turismo di ritorno</h1>
+                    </div>
+
                     <Image src={turismo} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
@@ -128,12 +138,10 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
                     >
-                      <h1 className="text-2xl font-semibold">Turismo di ritorno</h1>
+
 
                       <p>
-
-                        Regeneration in collaborazione con le più importanti agenzie di viaggi regionali e nazionali propone pacchetti turistici disegnati sulle necessità di discendenti , siamo coscienti che i discendenti di origine italiana rappresentano una categoria speciale di “Turista” e siamo pronti a rispondere con un sistema di accoglienza integrato per rendere il loro viaggio un esperienza unica nel segno di un immersione nella più profonda italianità !
-
+                        Regeneration, in collaborazione con le principali agenzie di viaggi regionali e nazionali, offre pacchetti turistici appositamente progettati per soddisfare le esigenze dei discendenti italiani. Siamo consapevoli che coloro che hanno radici italiane rappresentano una categoria speciale di “turista” e siamo pronti a offrire un sistema di accoglienza integrato per rendere il loro viaggio un'esperienza unica, immersa nell'autentica italianità.
                       </p>
 
                     </div>
@@ -151,6 +159,9 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
+                      <h1 className="text-2xl font-semibold px-4 text-white  ">Assistenza all’ottenimento</h1>
+                    </div>
                     <Image src={cittadinanza} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
@@ -159,14 +170,11 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 py-10"
                     >
-                      <h1 className="text-xl font-semibold">Assistenza all’ottenimento…</h1>
+
 
                       <p>
 
-                        I responsabili del settore cittadinanza hanno lavorato negli ultimi anni in molti comuni della nostra regione , sviluppando standard di eccellenza nel mercato della cittadinanza.
-                        Regeneration  ha sviluppato un nuovo sistema di partnership con i comuni per garantire il riconoscimento della cittadinanza nel rispetto delle leggi italiane con tempistiche rapide e garandendo prezzi alla portata di tutti .
-                        Per la prima volta nella storia si Regeneration riesce a coinvolgere le  istituzioni locali che da oggi si impegnano a favore dei diritti dei discendenti , anziche contrastare questo flusso , creando un offerta di servizi unica in Italia.
-
+                        Negli ultimi anni, il settore cittadinanza ha stabilito standard di eccellenza nei comuni della nostra regione. Regeneration ha sviluppato modelli di partenariato efficaci volti a  semplificare il riconoscimento della cittadinanza, garantendo tempi rapidi e costi accessibili. Questa collaborazione pionieristica con le istituzioni locali crea un'offerta di servizi unica in Italia per sostenere i diritti dei discendenti italiani.
                       </p>
 
                     </div>
@@ -184,6 +192,9 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
+                      <h1 className="text-2xl font-semibold px-4 text-white ">Promozione partenariato</h1>
+                    </div>
                     <Image src={partnership} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
@@ -192,12 +203,11 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
                     >
-                      <h1 className="text-2xl font-semibold">Promozione partenariato….</h1>
+
 
                       <p>
 
-                        Regeneration fa da intermediario e da punto di incontro tra le realtà imprenditoriali locali e quelle estere , promuovendo forme di cooperazione e di interscambio tra la Regione Molise e il Mondo , l’economia Molisana ha moltissime ricchezze da presentare e esportare nel mondo.
-                        Regeneration si impegna a sviluppare incontri per la promozione del commercio internazionale.
+                        Regeneration svolge un ruolo fondamentale come intermediario e punto d'incontro tra le imprese locali e quelle straniere, favorendo la cooperazione e lo scambio tra la Regione Molise e il resto del mondo. L'economia molisana vanta numerose risorse da presentare e esportare globalmente. Impegnata nella promozione del commercio internazionale, Regeneration organizza incontri per stimolare questa crescita economica.
                       </p>
 
                     </div>
@@ -214,6 +224,9 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden -[400px] h-[400px] ">
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px] '>
+                      <h1 className="text-2xl font-semibold px-4 text-white ">Cultura</h1>
+                    </div>
                     <Image src={cultura} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
@@ -222,11 +235,9 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
                     >
-                      <h1 className="text-2xl font-semibold">Cultura</h1>
 
                       <p>
-
-                        La promozione della cultura italiana nel mondo è un principio chiave di Regeneration ….
+                        La promozione della cultura italiana nel mondo è un valore centrale di Regeneration. Il nostro ricco patrimonio storico, artistico e culturale, che ci distingue da ogni altra nazione, ha dato origine a grandi imperi e a figure che hanno positivamente influenzato la storia mondiale. Questo ci infonde orgoglio e, al contempo, ci conferisce la responsabilità di creare un ambiente propizio in cui i principi dell'umanesimo possano continuare a guidare uno sviluppo sostenibile e equo per le future generazioni.
                       </p>
 
                     </div>
@@ -243,6 +254,9 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
+                      <h1 className="text-2xl font-semibold px-4 text-white ">Corsi di formazione</h1>
+                    </div>
                     <Image src={corso} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
@@ -251,7 +265,7 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
                     >
-                      <h1 className="text-2xl font-semibold">Corsi di formazione </h1>
+
 
                       <p>
 
@@ -274,6 +288,9 @@ export default function Home() {
                   className="relative preserve-3d group-hover:my-rotate-y-180 w-auto h-full duration-1000"
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
+                    <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
+                      <h1 className="text-2xl font-semibold px-4 text-white ">Protezione diritti dei discendenti</h1>
+                    </div>
                     <Image src={diritti} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
                   <div
@@ -282,7 +299,7 @@ export default function Home() {
                     <div
                       className="text-center flex flex-col items-center justify-center h-full text-gray-800 px-4 pb-6"
                     >
-                      <h1 className="text-2xl font-semibold">Protezione diritti dei discendenti</h1>
+
 
                       <p>
 

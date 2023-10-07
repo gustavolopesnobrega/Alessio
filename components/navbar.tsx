@@ -22,7 +22,7 @@ function NavBar() {
         </div>
         <div className={` absolute flex z-50 left-0 top-0 text-black justify-start bg-cyan-500 w-full h-[30vh] transition-all duration-1000 ${isOpen ? 'translate-x-0' : 'translate-x-full'}`}>
           <ul className=' flex flex-col py-20 px-20 lg:px-28 gap-6 text-xl max-h-screen '>
-            <Link href={"/"} className=' border-b-2 hover:text-white divide-slate-900 transition ease-in-out hover:translate-x-4 hover:scale-110 duration-200 ...' id="work" >Home</Link>
+            <Link href={"#"} className=' border-b-2 hover:text-white divide-slate-900 transition ease-in-out hover:translate-x-4 hover:scale-110 duration-200 ...' id="work" >Home</Link>
             <Link href={"#service"} className=' border-b-2 hover:text-white divide-slate-200 transition ease-in-out hover:translate-x-4 hover:scale-110 duration-200 ...'>Service</Link>
             <Link href={"#contact"} className=' border-b-2 hover:text-white divide-slate-200 transition ease-in-out hover:translate-x-4 hover:scale-110 duration-200 ...'>Contact</Link>
           </ul>

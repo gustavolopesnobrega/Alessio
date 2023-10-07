@@ -21,11 +21,11 @@ function Contact() {
                         <div className='flex flex-col gap-4 lg:flex-row justify-center '>
                             <div className='flex gap-2'>
                                 <AiOutlineFacebook className='text-4xl'></AiOutlineFacebook>
-                                <Link href={'/'} className='flex justify-center pt-2 hover:text-slate-300 text-lg' >Facebook</Link>
+                                <Link href={'https://www.facebook.com/profile.php?id=61550028856634'} target='blank' className='flex justify-center pt-2 hover:text-slate-300 text-lg' >Facebook</Link>
                             </div>
                             <div className='flex gap-2'>
                                 <AiOutlineInstagram className='text-4xl'></AiOutlineInstagram>
-                                <Link href={'/'} className='flex justify-center pt-2 hover:text-slate-300 text-lg'>Instagram</Link>
+                                <Link href={'https://instagram.com/regenerationmolise?igshid=MWZjMTM2ODFkZg=='} target='blank' className='flex justify-center pt-2 hover:text-slate-300 text-lg'>Instagram</Link>
                             </div>
                             <div className='flex gap-2'>
                                 <AiOutlineWhatsApp className='text-4xl'></AiOutlineWhatsApp>
@@ -43,8 +43,8 @@ function Contact() {
                                 <p className='flex justify-center text-xl'>+39 379 237 8680</p></Link>
                         </div>
                         <div className='flex gap-2 justify-center lg:justify-center hover:text-slate-300'>
-                            <Link href={'mailto:alessio@gmail.com'} target='blank'><h3 className='flex justify-center text-xl'>E-mail:</h3>
-                                <p className='flex justify-center text-xl'>alessio@gmail.com</p></Link>
+                            <Link href={'mailto:coop.regeneration@outlook.it'} target='blank'><h3 className='flex justify-center text-xl'>E-mail:</h3>
+                                <p className='flex justify-center text-xl'>coop.regeneration@outlook.it</p></Link>
                         </div>
 
                     </div>
