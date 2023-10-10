@@ -36,7 +36,7 @@ function Contact() {
                     <div className='flex flex-col gap-4 justify-center lg:justify-center py-10'>
                         <div className='flex gap-2 justify-center lg:justify-center hover:text-slate-300 '>
                             <Link href={'https://www.google.com/maps/place/Via+Cipriano+Facchinetti,+3,+86100+Campobasso+CB,+It%C3%A1lia/data=!4m2!3m1!1s0x133a74d5ce2d87c9:0xd14a9bb0071871a0?sa=X&ved=2ahUKEwijo_TeybqBAxWoILkGHSxoDhkQ8gF6BAgWEAA&ved=2ahUKEwijo_TeybqBAxWoILkGHSxoDhkQ8gF6BAgZEAI'} target='blank'><h3 className='flex justify-center text-xl'>Indirizzo:</h3>
-                                <p className='flex justify-center text-xl'>Via Facchinetti, <br />3 Campobasso</p></Link>
+                                <p className='flex justify-center text-xl'>Via Facchinetti 3, <br /> Campobasso</p></Link>
                         </div>
                         <div className='flex gap-2 justify-center lg:justify-center hover:text-slate-300'>
                             <Link href={"https://api.whatsapp.com/send?phone=393792378680"} target='blank'><h3 className='flex justify-center text-xl'>Telefono:</h3>

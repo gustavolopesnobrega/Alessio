@@ -109,7 +109,7 @@ export default function Home() {
 
                       <p>
 
-                        Regeneration promuove il territorio molisano in tutto il mondo, aprendo una finestra sul nostro ricco patrimonio storico, artistico e naturale per tutte le comunità italiane sparse nel globo. La nostra regione, situata nel cuore dell'Italia, rimane un luogo inesplorato, mantenendo intatta l'autenticità che rappresenta la tradizione più autentica del "Made in Italy
+                        Regeneration promuove il territorio molisano in tutto il mondo, aprendo una finestra sul nostro ricco patrimonio storico, artistico e naturale per tutte le comunità italiane sparse nel globo. La nostra regione, situata nel cuore dell'Italia, rimane un luogo inesplorato, mantenendo intatta l'autenticità che rappresenta la tradizione più autentica del "Made in Italy"
                       </p>
 
                     </div>
