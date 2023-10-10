@@ -48,7 +48,7 @@ export default function Home() {
 
           </motion.h1>
 
-          <div className='flex flex-wrap gap-6 justify-center ' id='content-section'>
+          <div className='flex flex-wrap gap-12 justify-center ' id='content-section'>
             <div className=' flex justify-center align-middle py-6  '>
               <div
                 className="w-[400px] h-[400px] min-w bg-transparent cursor-pointer group perspective"
@@ -58,7 +58,7 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]' id='service'>
-                      <h1 className="text-3xl font-semibold px-4 text-white">Integrazione del discendenti italiani in Italia</h1>
+                      <h1 className="text-3xl font-semibold px-4 text-white"></h1>
                     </div>
 
                     <Image src={bandeirabanbino} className="w-auto h-full" alt='badeira banbino'></Image>
@@ -81,6 +81,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Integrazione del discendenti italiani in Italia</h1>
               </div>
             </div>
 
@@ -94,7 +95,7 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
-                      <h1 className="text-3xl font-semibold px-4 text-white ">Promozione del territorio Italiano nel mondo</h1>
+                      <h1 className="text-3xl font-semibold px-4 text-white "></h1>
                     </div>
                     <Image src={territorio} className="w-auto h-full " alt='badeira banbino'></Image>
                   </div>
@@ -114,6 +115,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Promozione del territorio Italiano nel mondo</h1>
               </div>
             </div>
 
@@ -127,7 +129,7 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
-                      <h1 className="text-3xl font-semibold  text-white ">Turismo di ritorno</h1>
+                      <h1 className="text-3xl font-semibold  text-white "></h1>
                     </div>
 
                     <Image src={turismo} className="w-auto h-full" alt='badeira banbino'></Image>
@@ -147,6 +149,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Turismo di ritorno</h1>
               </div>
             </div>
 
@@ -160,7 +163,7 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
-                      <h1 className="text-3xl font-semibold px-4 text-white  ">Cittadinanza Italiana</h1>
+                      <h1 className="text-3xl font-semibold px-4 text-white  "></h1>
                     </div>
                     <Image src={cittadinanza} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
@@ -180,6 +183,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Cittadinanza Italiana</h1>
               </div>
             </div>
 
@@ -193,7 +197,7 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
-                      <h1 className="text-3xl font-semibold px-4 text-white ">Promozione partenariato</h1>
+                      <h1 className="text-3xl font-semibold px-4 text-white "></h1>
                     </div>
                     <Image src={partnership} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
@@ -213,6 +217,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Promozione partenariato</h1>
               </div>
             </div>
 
@@ -225,7 +230,7 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden -[400px] h-[400px] ">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px] '>
-                      <h1 className="text-3xl font-semibold px-4 text-white ">Cultura</h1>
+                      <h1 className="text-3xl font-semibold px-4 text-white "></h1>
                     </div>
                     <Image src={cultura} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
@@ -243,6 +248,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Cultura</h1>
               </div>
             </div>
 
@@ -255,7 +261,7 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
-                      <h1 className="text-3xl font-semibold px-4 text-white ">Corsi di formazione</h1>
+                      <h1 className="text-3xl font-semibold px-4 text-white "></h1>
                     </div>
                     <Image src={corso} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
@@ -275,7 +281,9 @@ export default function Home() {
 
                     </div>
                   </div>
+
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Corsi di formazione</h1>
               </div>
             </div>
 
@@ -289,10 +297,11 @@ export default function Home() {
                 >
                   <div className="absolute backface-hidden w-[400px] h-[400px]">
                     <div className='flex absolute justify-center text-center pt-36 w-[400px] h-[400px]'>
-                      <h1 className="text-3xl font-semibold px-4 text-white ">Protezione diritti dei discendenti</h1>
+                      <h1 className="text-3xl font-semibold px-4 text-white "></h1>
                     </div>
                     <Image src={diritti} className="w-auto h-full" alt='badeira banbino'></Image>
                   </div>
+
                   <div
                     className="absolute my-rotate-y-180 backface-hidden w-auto h-full bg-gray-100 overflow-hidden"
                   >
@@ -309,18 +318,16 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Protezione diritti dei discendenti</h1>
               </div>
             </div>
-
           </div>
-
-
-
-
-
         </div>
-        <Contact></Contact>
-        <Footer></Footer>
+        <div className='mt-10'>
+          <Contact></Contact>
+          <Footer></Footer>
+        </div>
+
       </section>
     </main >
   )
