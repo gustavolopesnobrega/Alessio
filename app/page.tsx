@@ -15,7 +15,8 @@ import territorio from '../public/Territorio.jpg'
 import turismo from '../public/Turismo di Ritorno.jpg'
 import Contact from '@/components/contact';
 import Footer from '@/components/footer';
-
+import cimlogo from '../public/cimlogo.png'
+import Link from 'next/link';
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -322,6 +323,16 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </div>
+        <div className='flex flex-col justify-center lg:text-2xl text-xl font-medium py-12 mt-10 px-6 gap-4 text-black'>
+          <h2 className='flex justify-center text-center'>Regeneration è parte della Confederazione degli Italiani nel mondo C.I.M.</h2>
+          <div className='flex justify-center '>
+
+            <Link href={"https://cimconfederazione.it/"} target='_blank'><Image src={cimlogo} alt='cim-logo' className='h-20 w-20 '></Image></Link>
+          </div>
+
+
+
         </div>
         <div className='mt-20'>
           <Contact></Contact>
