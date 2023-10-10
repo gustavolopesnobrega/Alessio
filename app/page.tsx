@@ -81,7 +81,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Integrazione del discendenti italiani in Italia</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase">Integrazione del discendenti italiani in Italia</h1>
               </div>
             </div>
 
@@ -115,7 +115,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Promozione del territorio Italiano nel mondo</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase ">Promozione del territorio Italiano nel mondo</h1>
               </div>
             </div>
 
@@ -149,7 +149,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Turismo di ritorno</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase">Turismo di ritorno</h1>
               </div>
             </div>
 
@@ -183,7 +183,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Cittadinanza Italiana</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase">Cittadinanza Italiana</h1>
               </div>
             </div>
 
@@ -217,7 +217,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Promozione partenariato</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase">Promozione partenariato</h1>
               </div>
             </div>
 
@@ -248,7 +248,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Cultura</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase ">Cultura</h1>
               </div>
             </div>
 
@@ -283,7 +283,7 @@ export default function Home() {
                   </div>
 
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Corsi di formazione</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase">Corsi di formazione</h1>
               </div>
             </div>
 
@@ -318,12 +318,12 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <h1 className="text-xl font-medium px-4 py-2 text-black text-center ">Protezione diritti dei discendenti</h1>
+                <h1 className="text-xl font-medium px-4 py-2 text-black text-center uppercase ">Protezione diritti dei discendenti</h1>
               </div>
             </div>
           </div>
         </div>
-        <div className='mt-10'>
+        <div className='mt-20'>
           <Contact></Contact>
           <Footer></Footer>
         </div>
