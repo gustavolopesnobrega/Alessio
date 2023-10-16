@@ -10,8 +10,8 @@ const poppins = Poppins({
 })
 
 export const metadata = {
-  title: 'Alessio Italian',
-  description: 'Alessio Italian',
+  title: 'Regeneration Italia',
+  description: 'Regeneration Italia',
 }
 
 export default function RootLayout({
