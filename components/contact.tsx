@@ -19,10 +19,10 @@ function Contact() {
                     </div>
                     <div className=' flex justify-center'>
                         <div className='flex flex-col gap-4 lg:flex-row justify-center '>
-                            <div className='flex gap-2'>
+                            {/* <div className='flex gap-2'>
                                 <AiOutlineFacebook className='text-4xl'></AiOutlineFacebook>
                                 <Link href={'https://www.facebook.com/profile.php?id=61550028856634'} target='blank' className='flex justify-center pt-2 hover:text-slate-300 text-lg' >Facebook</Link>
-                            </div>
+                            </div> */}
                             <div className='flex gap-2'>
                                 <AiOutlineInstagram className='text-4xl'></AiOutlineInstagram>
                                 <Link href={'https://instagram.com/regenerationmolise?igshid=MWZjMTM2ODFkZg=='} target='blank' className='flex justify-center pt-2 hover:text-slate-300 text-lg'>Instagram</Link>
